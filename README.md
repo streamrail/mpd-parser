@@ -18,10 +18,15 @@ closurebuilder.py --root=CLOSURE_LIBRARY \
 
 Where:
 CLOSURE_LIBRARY - path to your closure library
+
 PROJECT_ROOT - path to root of this project
+
 SR_MPD_PARSER - module name from which dependency tree is built
+
 COMPILER_JAR - path to closure compiler
+
 compilation_level - whichever level you'll like to use (https://developers.google.com/closure/compiler/docs/compilation_levels)
+
 OUTPUT - compilation result end up here.
 
 e.g.
