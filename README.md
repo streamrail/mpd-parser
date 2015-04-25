@@ -17,6 +17,7 @@ closurebuilder.py --root=CLOSURE_LIBRARY \
 ```
 
 Where:
+
 CLOSURE_LIBRARY - path to your closure library
 
 PROJECT_ROOT - path to root of this project
