@@ -1,8 +1,8 @@
 {
-  "name": "shaka-player",
-  "description": "DASH/EME video player library",
+  "name": "mpd-parser",
+  "description": "parses mpd files",
   "version": "1.3.0",
-  "homepage": "https://github.com/google/shaka-player",
+  "homepage": "https://github.com/streamrail/mpd-parser",
   "author": "Google",
   "maintainers": [
     {
@@ -10,13 +10,13 @@
       "email": "joeyparrish@google.com"
     }
   ],
-  "main": "shaka-player.compiled.js",
+  "main": "compiled.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/google/shaka-player.git"
+    "url": "https://github.com/streamrail/mpd-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/google/shaka-player/issues"
+    "url": "https://github.com/streamrail/mpd-parser/issues"
   },
   "license": "Apache License 2.0",
   "licenses": [
@@ -24,8 +24,5 @@
       "type": "Apache",
       "url": "https://github.com/google/shaka-player/blob/master/LICENSE.txt"
     }
-  ],
-  "scripts": {
-    "prepublish": "./build/checkversion.sh && ./build/all.sh"
-  }
+  ]
 }
