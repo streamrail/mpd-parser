@@ -4,8 +4,6 @@ Parses mpd files, this module is a part of Google Shaka player, we've extracted 
 
 ## Dependencies ##
 
-## Dependencies ##
-
 [Closure Compiler][]
 [Closure Compiler]: https://developers.google.com/closure/compiler/
 
