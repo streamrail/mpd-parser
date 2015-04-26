@@ -49,7 +49,7 @@ Finally to make compiled.js readable run its content through jsbeautifier.
 // Parses xml response
 // Constructs an object from xml
 // resolve promise with object
-sr.mpdParser(http://dash.edgesuite.net/envivio/dashpr/clear/Manifest.mpd)
+sr.mpdParser('http://dash.edgesuite.net/envivio/dashpr/clear/Manifest.mpd')
 .then(function(mpd) {
 	// Inspect, work with parsed object.
 });
