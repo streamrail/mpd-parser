@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="compiled.js"></script>
+</head>
+<body>
+
+</body>
+
+<script type="text/javascript">
+	if(!sr.mpdParser) {
+		console.error('missing sr.mpdParser');
+	}
+	else {
+		var url = 'http://dash.edgesuite.net/envivio/dashpr/clear/Manifest.mpd';
+		sr.mpdParser(url).then(function(mpd){
+			console.log(mpd);
+		});
+	}
+</script>
+</html>
