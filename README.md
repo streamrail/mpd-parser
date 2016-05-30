@@ -54,3 +54,7 @@ sr.mpdParser('http://dash.edgesuite.net/envivio/dashpr/clear/Manifest.mpd')
 	// Inspect, work with parsed object.
 });
 ```
+
+## License ## 
+
+MIT (see [LICENSE](https://github.com/streamrail/mpd-parser/blob/master/LICENSE.txt) file)
