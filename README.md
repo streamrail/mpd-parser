@@ -55,6 +55,5 @@ sr.mpdParser('http://dash.edgesuite.net/envivio/dashpr/clear/Manifest.mpd')
 });
 ```
 
-## License ## 
-
-MIT (see [LICENSE](https://github.com/streamrail/mpd-parser/blob/master/LICENSE.txt) file)
+## License 
+MIT (see [LICENSE.txt](https://github.com/streamrail/mpd-parser/blob/master/LICENSE.txt) file)
